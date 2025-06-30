@@ -1,0 +1,8 @@
+CREATE DATABASE cursos
+ON PRIMARY (
+NAME = cursos,
+FILENAME = 'C:\SQL\cursos.MDF',
+SIZE = 6MB,
+MAXSIZE = 15MB,
+FILEGROWTH = 3%
+);
